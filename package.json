@@ -1,0 +1,27 @@
+{
+  "name": "web-rpg-game",
+  "version": "1.0.0",
+  "description": "一个可以直接在网页上玩的内容丰富的类传奇游戏",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "keywords": [
+    "rpg",
+    "游戏",
+    "网页游戏"
+  ],
+  "author": "你的名字",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.0.0",
+    "css-loader": "^5.0.0",
+    "style-loader": "^2.0.0"
+  }
+}
